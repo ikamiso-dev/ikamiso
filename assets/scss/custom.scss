@@ -1,3 +1,76 @@
-/*
-    You can add your own custom styles here.
-*/
+:root {
+  /* システムフォント（英語） */
+  --sys-font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial;
+
+  /* 日本語フォント */
+  --ja-font-family:
+    "Hiragino Sans",
+    "Hiragino Kaku Gothic ProN",
+    "Yu Gothic UI",
+    "Yu Gothic",
+    "Meiryo",
+    sans-serif;
+
+  /* 本文フォント */
+  --base-font-family:
+    var(--sys-font-family),
+    var(--ja-font-family);
+
+  /* コードフォント */
+  --code-font-family:
+    Menlo,
+    Monaco,
+    Consolas,
+    "Courier New",
+    monospace;
+
+  /* フォントサイズと行間 */
+  --article-font-size: 18px;
+  --article-line-height: 1.9;
+}
+
+
+/* 文節単位の折り返し */
+body {
+  overflow-wrap: anywhere;
+
+  /* 古いブラウザ fallback */
+  word-break: normal;
+
+  /* 文節単位改行（対応ブラウザのみ有効） */
+  word-break: auto-phrase;
+
+  /* 日本語組版ルール */
+  line-break: strict;
+}
+
+
+/*  コードブロック  */
+pre {
+  overflow-x: auto;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+/* コードフォントサイズ */
+code {
+  font-size: 0.95em;
+}
+
+
+/* ---------- 記事本文の読みやすさ ---------- */
+.article-content {
+  letter-spacing: 0.02em;
+}
+
+
+/* ---------- 画像の角を丸める ---------- */
+.article-content img {
+  border-radius: 12px;
+}
