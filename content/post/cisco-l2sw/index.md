@@ -9,8 +9,6 @@ tags:
     - cisco
 ---
 
-## cisco L2SW　研修用コマンド
-
 ## 特権パスワード設定（暗号化）
 
 ```
@@ -63,7 +61,7 @@ tags:
 (config)#spanning-tree vlan <番号> priority <priority値4096単位>
 ```
 
-## VLAN作成　IFアサイン
+## VLAN作成
 
 ```
 (config)#vlan <番号>
@@ -71,7 +69,7 @@ tags:
 (config-vlan)#exit
 ```
 
-### アクセスポート
+## アクセスポート
 
 ```
 (config)#interface range <IF名>-<IF名>
@@ -80,7 +78,7 @@ tags:
 (config-if-range)#exit
 ```
 
-### トランクポート
+## トランクポート
 
 ```
 (config)#interface <IF名>
@@ -89,7 +87,7 @@ tags:
 (config-if-range)#exit
 ```
 
-### ポートチャンネル
+## ポートチャンネル
 
 ```
 (config)# interface port-channel 1
@@ -123,6 +121,8 @@ tags:
 ```
 
 ## SSH
+rsa鍵を生成する前に、ホスト名とドメイン名を設定しておく必要があるよ。
+鍵のラベルにFQDN(ホスト名+ドメイン名)を使用するかららしい。
 
 ```
 (config)#hostname <ホスト名>
@@ -133,6 +133,7 @@ tags:
 ```
 
 ## スタティックルート
+本当のL2SWにこのコマンドはないよ。L3SWをL2SWとしてつかうときは、デフォルトゲートウェイの設定をこのコマンドでしてもいいらしい。
 
 ```
 (config)#ip route <宛先> <サブネットマスク> <ネクストホップ>
