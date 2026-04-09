@@ -2,7 +2,7 @@
 title: cisco L2SW　研修用コマンド
 description: ciscoのL2SWの研修で登場したコマンド
 slug: cisco-l2sw
-date: 2026-04-10 00:00:00+0900
+date: 2026-04-09 20:00:00+0900
 categories:
     - ネットワーク
 tags:
