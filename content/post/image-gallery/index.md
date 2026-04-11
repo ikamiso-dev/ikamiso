@@ -19,4 +19,10 @@ To use this feature, the image must be in the same directory as the Markdown fil
 
 ![Image 1](1.jpg) ![Image 2](2.jpg)
 
+![Image 3](IMG_0864.GIF)
+
+![Image 4](IMG_0880.PNG)
+
+![Image 5](IMG_2729.PNG)
+
 > Photo by [mymind](https://unsplash.com/@mymind) and [Luke Chesser](https://unsplash.com/@lukechesser) on [Unsplash](https://unsplash.com/)
