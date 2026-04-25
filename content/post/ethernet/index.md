@@ -1,7 +1,7 @@
 ---
 title: イーサネットとスイッチング
 description: イーサネットの基本からフレーム構造、MACアドレス、フレームスイッチングの仕組みまでを初心者向けに解説します!
-slug: about
+slug: ethernet
 date: 2026-04-25 20:00:00+0900
 categories:
     - ネットワーク
