@@ -4,9 +4,9 @@ description:
 slug: private-ip
 date: 2026-04-15 00:00:00+0900
 categories:
-    - 用語
+    - ネットワーク
 tags:
-    - 
+    - プライベートIPアドレス
 ---
 
 ## プライベートIPアドレスとは
