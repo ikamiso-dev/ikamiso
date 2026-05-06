@@ -13,7 +13,7 @@ tags:
 
 プライベートなネットワークで使用するIPアドレス
 
-RFC1918に公式の定義が書いてあります。
+RFC1918で定義されています。
 https://datatracker.ietf.org/doc/html/rfc1918
 
     The Internet Assigned Numbers Authority (IANA) has reserved the following three blocks of the IP address space for private internets:
